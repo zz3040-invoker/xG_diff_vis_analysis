@@ -1,5 +1,5 @@
 # Author: Nemo Ni, Pu Xiao, Colin (Zhening) Zhang
-# last update: 08/02/2023
+# last update: 08/06/2023
 
 ## SETUP
 # import packages
@@ -47,7 +47,7 @@ intro_p1 = df %>%
     pointFormat= "{point.team_title}<br> shooting: {point.x}<br> npxG_diff: {point.y:.2f}<br> npg: {point.npg_num}<br> npxG: {point.npxG_num:.2f}"
   ) 
 
-htmlwidgets::saveWidget(intro_p1, "intro_p1.html")
+htmlwidgets::saveWidget(intro_p1, "Output/intro_p1.html")
 #display_html('<iframe src="intro_p1.html" width=100% height=600></iframe>')
 
 # plot name: intro_p2
@@ -74,7 +74,7 @@ intro_p2 <- df %>%
     pointFormat= "{point.team_title} <br> Rating: {point.x} <br> npxG_diff: {point.y}"
   )
 
-htmlwidgets::saveWidget(intro_p2, "intro_p2.html")
+htmlwidgets::saveWidget(intro_p2, "Output/intro_p2.html")
 #display_html('<iframe src="intro_p2.html" width=100% height=400></iframe>')
 
 ## STUDY SAMPLE
@@ -93,7 +93,7 @@ table1 <- df %>%
   tbl_summary()
 
 # save table1 in html and output it in Kaggle
-gt::gtsave(as_gt(table1), "table1.html")
+gt::gtsave(as_gt(table1), "Output/table1.html")
 #display_html('<iframe src="table1.html" width=100% height=400></iframe>')
 
 ## STEP 1
@@ -194,7 +194,7 @@ s2_p1 <- highchart() %>%
     style = list(color = "#22A884", useHTML = TRUE)
   )
 
-htmlwidgets::saveWidget(s2_p1, "s2_p1.html")
+htmlwidgets::saveWidget(s2_p1, "Output/s2_p1.html")
 #display_html('<iframe src="s2_p1.html" width=100% height=400></iframe>')
 
 # plot name: s2_p2
@@ -228,7 +228,7 @@ s2_p2 = df %>%
     pointFormat= "{point.team_title} <br> position: {point.position_short} <br> npxG_num: {point.x:.2f} <br> npg_num: {point.y}"
   )
 
-htmlwidgets::saveWidget(s2_p2, "s2_p2.html")
+htmlwidgets::saveWidget(s2_p2, "Output/s2_p2.html")
 #display_html('<iframe src="s2_p2.html" width=100% height=400></iframe>')
 
 ## STEP 3
@@ -252,7 +252,7 @@ s3_p1 = ggplotly(
   ) # add title
 
 # need following two lines to plot the graph on kaggle
-htmlwidgets::saveWidget(s3_p1, "s3_p1.html")
+htmlwidgets::saveWidget(s3_p1, "Output/s3_p1.html")
 #display_html('<iframe src="s3_p1.html" width=100% height=400></iframe>')
 
 s3_p2 = df %>% 
@@ -277,7 +277,7 @@ s3_p2 = df %>%
   )
 
 # need following two lines to plot the graph on kaggle
-htmlwidgets::saveWidget(s3_p2, "s3_p2.html")
+htmlwidgets::saveWidget(s3_p2, "Output/s3_p2.html")
 #display_html('<iframe src="s3_p2.html" width=100% height=400></iframe>')
 
 s3_p2_2 = df %>% 
@@ -303,7 +303,7 @@ s3_p2_2 = df %>%
   )
 
 # need following two lines to plot the graph on kaggle
-htmlwidgets::saveWidget(s3_p2_2, "s3_p2_2.html")
+htmlwidgets::saveWidget(s3_p2_2, "Output/s3_p2_2.html")
 #display_html('<iframe src="s3_p2_2.html" width=100% height=400></iframe>')
 
 s3_p3 <- df %>% 
@@ -335,7 +335,7 @@ s3_p3 <- df %>%
                         npxG_diff: {point.y}"
   )
 
-htmlwidgets::saveWidget(s3_p3, "s3_p3.html")
+htmlwidgets::saveWidget(s3_p3, "Output/s3_p3.html")
 #display_html('<iframe src="s3_p3.html" width=100% height=400></iframe>')
 
 s3_p3_1 <- df %>% 
@@ -368,7 +368,7 @@ s3_p3_1 <- df %>%
                         npxG_diff: {point.y}"
   )
 
-htmlwidgets::saveWidget(s3_p3_1, "s3_p3_1.html")
+htmlwidgets::saveWidget(s3_p3_1, "Output/s3_p3_1.html")
 #display_html('<iframe src="s3_p3_1.html" width=100% height=400></iframe>')
 
 other_lastActions <- c(
@@ -423,6 +423,6 @@ s3_p4 = data2 %>%
                     <br>xG: {point.sum_xg:.2f}"
   )
 
-htmlwidgets::saveWidget(s3_p4, "s3_p4.html")
+htmlwidgets::saveWidget(s3_p4, "Output/s3_p4.html")
 #display_html('<iframe src="s3_p4.html" width=100% height=600></iframe>')
 
