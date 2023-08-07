@@ -1,5 +1,5 @@
 # XG Analysis on EPL 2020 players with interactive plots: do players with higher xG difference mean they are "better" shooters?
-**Last Edit**: 08/06/2023
+**Last Edit**: 08/07/2023
 
 **Authors:**
 Nemo Ni, Pu Xiao, Zhening Zhang
