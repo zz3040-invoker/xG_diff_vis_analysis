@@ -24,6 +24,6 @@ For example, the vlogger Tifo IRL analyzed the player’s ability based on a non
 
 <!-- INSERT a plot: intro_p1 -->
 
-<!-- INSERT a plot: intro_p1 -->
+<!-- INSERT a plot: intro_p2 -->
 
 The two plots displayed above depict the relationship between xG_diff and two features:  shooting and Whoscored rating. Neither of the plots demonstrates a notable trend suggesting a correlation between xG_diff and either shooting or Whoscored rating. It raised doubts regarding the reliability and accuracy of xG_diff as a metric to evaluate a player’s shooting ability or overall performance. Hence, the report aims to conduct a thorough investigation on xG_diff and address the question “**Does a higher xG_diff  indicate a better player?**”
