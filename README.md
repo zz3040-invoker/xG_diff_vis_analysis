@@ -1,12 +1,18 @@
 # xG_diff_vis_analysis
 
-This is the GitHub repository for the project "xG Analysis on EPL 2020 with interactive plots."  
+Date: 8/14/2023
 
-## links
+This is the GitHub repository for the project "xG Analysis on EPL 2020 with interactive plots." 
+
+## Links
 
 Kaggle: https://www.kaggle.com/code/invokerz/xg-analysis-on-epl-2020-with-interactive-plots
 
 Website: https://safifis.github.io/Druid/#about
+
+## Documentation
+**Codes:** stores R codes for all the interactive plots.
+**Documents:** stores all the texts in markdown files. 
 
 ## My Team
 
