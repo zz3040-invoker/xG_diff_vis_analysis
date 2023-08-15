@@ -11,8 +11,10 @@ Kaggle: https://www.kaggle.com/code/invokerz/xg-analysis-on-epl-2020-with-intera
 Website: https://safifis.github.io/Druid/#about
 
 ## Documentation
+
 **Codes:** stores R codes for all the interactive plots.
-**Documents:** stores all the texts in markdown files. 
+
+**Documents:** stores all the texts in a markdown file. 
 
 ## My Team
 
