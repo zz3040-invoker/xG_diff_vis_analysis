@@ -138,6 +138,8 @@ Our results from Step 2 indicated that a player’s position is one of the most 
 
 There are several limitations of our study. First, our research only included data from the 2020-2021 premier league season. For future studies, we suggest harmonizing data from multiple seasons and leagues to replicate our results and explore novel findings. Second, due to the limitation of sample size (n = 62), we were unable to see the correlation among many other features and effects on the xG model. For example, as aforementioned in Step 3, we believed variables like *last action*, will to some extent affect the xG model, but we could not conclude with some of the correlations we already saw because of the limited sample size. <br>
 
+In addition, given that feature ratings from FIFA are not the best and most accurate measurement of a player’s skills, we perform the same exploratory analyses on FM 2020 (Football Manager 2020 Sports Interactive) player data (https://www.kaggle.com/datasets/ktyptorio/football-manager-2020). There is no significant association found between FM 2020 players’ finishing skill ratings and the npxG_diff. Despite that we replicated what we found in another dataset, both FIFA and FM ratings may not reflect the player’s skill set accurately and a player’s skills are more complicated than numbers from the games. <br>
+
 Another potential direction to further explore is: what if the same player plays in a different position? Does it affect its xG value? Those are some interesting questions we suggest to study from what we saw in this report.
 
 <a id="con"></a>
